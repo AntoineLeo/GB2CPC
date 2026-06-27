@@ -1,0 +1,13 @@
+# Normalize line endings. Shell scripts MUST stay LF so they run on Linux.
+* text=auto
+
+*.sh    text eol=lf
+*.py    text eol=lf
+Makefile text eol=lf
+
+# Binary assets
+*.2bpp  binary
+*.bin   binary
+*.dsk   binary
+*.cdt   binary
+*.png   binary

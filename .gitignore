@@ -1,0 +1,26 @@
+# Build output
+/build/
+*.ihx
+*.hex
+*.bin
+*.rel
+*.lst
+*.sym
+*.map
+*.lk
+*.noi
+*.asm
+*.dsk
+*.cdt
+*.sna
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
