@@ -35,7 +35,7 @@ The project is split into two major parts: **Offline Build Tools** (Asset Conver
 
 ### 1. `/tools` (Asset Pipeline)
 A Python-based asset converter that hooks into the build process.
-* **`gb2cpc-tiles`**: Converts Game Boy 2BPP (4 shades of gray) tilesets/backgrounds into Amstrad CPC Mode 1 (4 colors, interleaved memory) or Mode 0 (16 colors) linear sprite arrays.
+* **`gb2cpc-tiles`**: Converts Game Boy 2BPP (4 shades of gray) tilesets/backgrounds into Amstrad CPC Mode 1 (4 colors, interleaved memory) linear sprite arrays.
 * **`gb2cpc-palette`**: Maps the Game Boy's 4-shade palette to the closest hardware colors available in the Amstrad's 27-color palette.
 
 ### 2. `/include` & `/src` (The Compatibility Layer)
@@ -66,7 +66,7 @@ Game Boy joypad register bits are mapped transparently onto the Amstrad CPC Keyb
 Currently, the project is in **Early Alpha**. We are benchmarking a basic GBDK "Hello World" (a moving sprite with joypad inputs) compiled for the CPC.
 
 ### Prerequisites
-* **SDCC** (Small Device C Compiler) or a **CPCtelera** setup.
+* **CPCtelera** setup.
 * **Python 3.x** (for the asset pipeline).
 
 ### Compilation Pipeline (Concept)
@@ -102,5 +102,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://www.g
 *Disclaimer: GB2CPC is a community-driven hobbyist project. It is not affiliated with, authorized, or endorsed by Nintendo or Amstrad.*
 
 ```
-
----
